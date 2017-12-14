@@ -6,12 +6,12 @@ class Interview extends Component {
         return(
             <div className="Main">
                 <section className='title white'>
-                    <h1>Title for interview</h1>
-                    <p>description</p>
+                    <h1>A Hard Fela to Follow: The Origin Story of Afrobeat</h1>
+                    <p>In the video, A Hard Fela to Follow: The Origin Story of Afrobeat, we interview some students to discuss the narrative of Fela Kuti’s Afrobeat. Through this process, interviewees are asked a series of questions that deal with Afrobeat and Afrobeats. With this engaging dialogue, interviewees analyze Fela's work and songs that have sampled his work. Ultimately, the interviewees are asked whether these Afrobeats' songs are paying homage to Fela or just a strategic ploy to get more viewers?</p>
                 </section>
                 
                 <section className='content interview black'>
-                    <p>This is an example interview.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit modi, quia, dolore consequuntur laboriosam quaerat, repellendus quos provident tenetur consequatur excepturi officiis adipisci amet nemo, vel? Ab dolores, odio.</p>
+                    <p>Content: 1. [Insert video as an embedded youtube video.  2. a timeline</p>
                 </section>
             
             </div>

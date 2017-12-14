@@ -6,12 +6,13 @@ class Paper extends Component {
         return(
             <div className="Main">
                 <section className='title white'>
-                    <h1>Title of paper</h1>
-                    <p>description</p>
+                    <h1>"Gqom and the Future of Genre in South Africa" </h1>
+                    <p>The futuristic dance style of gqom, with its broken beats, dark drones, and growling samples, has had an interesting evolution since its rise in the clubs of Durban. Gqom became popular in Europe long before it was widely popular in its native South Africa, partially due to its  Through the "gqomwave" music of Okmalumkoolkat, aka Smiso Zwane, gqom has demonstrated its portability as a genre, woven into American trap and hip-hop aesthetics. Okmalumkoolkat's collaboration with Rudeboyz shows Zwane's willingness to experiment with all of the styles and genres surrounding him. 
+</p>
                 </section>
                 
                 <section className='content paper black'>
-                    <p>This is an example paper.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit modi, quia, dolore consequuntur laboriosam quaerat, repellendus quos provident tenetur consequatur excepturi officiis adipisci amet nemo, vel? Ab dolores, odio.</p>
+                    <p>1. Insert [Playlist first embedded as youtube or soundcloud]  2. Essay, with songs embedded in between possibly</p>
                 </section>
             
             </div>
