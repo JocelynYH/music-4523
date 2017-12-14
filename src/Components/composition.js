@@ -6,7 +6,9 @@ class Composition extends Component {
         return(
             <div className="Main">
                 <section className='title white'>
-                    <h1>Title</h1>
+                  <div className='contentTitle'>
+                    <img src={require('../images/fela-ra.png')} />
+                    </div>
                     <p>description</p>
                 </section>
 

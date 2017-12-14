@@ -22,12 +22,11 @@ class App extends Component {
             <ul>
               <li><Link to="/">
               <button className="App-logo-button">
-                {/*<img src=require('./logo.svg')}/>*/}
-                Electronic Music Logo
+                <img src={require('./logo.svg')}/>
               </button>
               </Link></li>
             </ul>
-
+            
             {/*Nav Bar*/}
             <div className= "nav">
             <ul>
@@ -35,7 +34,7 @@ class App extends Component {
               <li><Link to="/Composition"><button className="button">Music</button></Link></li>
               <li><Link to="/Interview"><button className="button">Interviews</button></Link></li>
               <li><Link to="/Paper"><button className="button">Writings</button></Link></li>
-              <li><Link to="/Paper"><button className="button">Team</button></Link></li>
+              <li><Link to="/Team"><button className="button">Team</button></Link></li>
             </ul>
             </div>
           </div>

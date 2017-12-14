@@ -6,16 +6,18 @@ class Interview extends Component {
         return(
             <div className="Main">
                 <section className='title white'>
-                    <h1>Title for interview</h1>
+                  <div className='contentTitle'>
+                    <img src={require('../images/ahardfela.png')} />
+                  </div>
                     <p>description</p>
                 </section>
-                
+
                 <section className='content interview black'>
                     <p>This is an example interview.  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam odit modi, quia, dolore consequuntur laboriosam quaerat, repellendus quos provident tenetur consequatur excepturi officiis adipisci amet nemo, vel? Ab dolores, odio.</p>
                 </section>
-            
+
             </div>
-            
+
         )
     }
 }
