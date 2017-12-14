@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Composition from './Components/composition.js';
-import Interview from './Components/interview.js';
-import Paper from './Components/paper.js';
+import Composition from './components/composition.js';
+import Interview from './components/interview.js';
+import Paper from './components/paper.js';
+import Home from './components/home.js';
+import Team from './components/team.js';
 
 class App extends Component {
   render() {
@@ -11,27 +13,41 @@ class App extends Component {
       <div className="App">
 
       {/*Header*/}
-        <header className="App-header">
-          <h1 className="App-title">African Electronic Music</h1>
-
+      <Router>
+        <div className="App-header">
           {/*Homepage Links to Pages*/}
-          <Router>
           <div className= "App-links">
+
+          {/*Logo Button*/}
             <ul>
-              <div><li><Link to="/Composition"><button className="App-composition-button">Composition</button></Link></li></div>
-              <div><li><Link to="/Interview"><button className="App-interview-button">Interview</button></Link></li></div>
-              <div><li><Link to="/Paper"><button className="App-paper-button">Paper</button></Link></li></div>
+              <li><Link to="/">
+              <button className="App-logo-button">
+                <img src={require('./logo.svg')}/>
+              </button>
+              </Link></li>
             </ul>
+            
+            {/*Nav Bar*/}
+            <div className= "nav">
+            <ul>
+              <li><Link to="/"><button className="button">Home</button></Link></li>
+              <li><Link to="/Composition"><button className="button">Music</button></Link></li>
+              <li><Link to="/Interview"><button className="button">Interviews</button></Link></li>
+              <li><Link to="/Paper"><button className="button">Writings</button></Link></li>
+              <li><Link to="/Team"><button className="button">Team</button></Link></li>
+            </ul>
+            </div>
+          </div>
 
             {/*Routing Paths*/}
+            <Route exact path="/" component={Home} />
             <Route exact path="/Composition" component={Composition} />
             <Route exact path="/Interview" component={Interview} />
             <Route exact path="/Paper" component={Paper} />
-          </div>
-          </Router>
-        </header>
+            <Route exact path="/Team" component={Team} />
 
-        {/*Body*/}
+        </div>
+        </Router>
       </div>
     );
   }
