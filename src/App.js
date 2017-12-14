@@ -5,6 +5,7 @@ import Composition from './components/composition.js';
 import Interview from './components/interview.js';
 import Paper from './components/paper.js';
 import Home from './components/home.js';
+import Team from './components/team.js';
 
 class App extends Component {
   render() {
@@ -31,9 +32,10 @@ class App extends Component {
             <div className= "nav">
             <ul>
               <li><Link to="/"><button className="button">Home</button></Link></li>
-              <li><Link to="/Composition"><button className="button">Composition</button></Link></li>
-              <li><Link to="/Interview"><button className="button">Interview</button></Link></li>
-              <li><Link to="/Paper"><button className="button">Paper</button></Link></li>
+              <li><Link to="/Composition"><button className="button">Music</button></Link></li>
+              <li><Link to="/Interview"><button className="button">Interviews</button></Link></li>
+              <li><Link to="/Paper"><button className="button">Writings</button></Link></li>
+              <li><Link to="/Paper"><button className="button">Team</button></Link></li>
             </ul>
             </div>
           </div>
@@ -43,6 +45,7 @@ class App extends Component {
             <Route exact path="/Composition" component={Composition} />
             <Route exact path="/Interview" component={Interview} />
             <Route exact path="/Paper" component={Paper} />
+            <Route exact path="/Team" component={Team} />
 
         </div>
         </Router>
