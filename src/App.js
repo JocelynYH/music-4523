@@ -26,17 +26,28 @@ class App extends Component {
               </button>
               </Link></li>
             </ul>
-            
+
             {/*Nav Bar*/}
             <div className= "nav">
             <ul>
-              <li><Link to="/"><button className="button">Home</button></Link></li>
-              <li><Link to="/Composition"><button className="button">Music</button></Link></li>
-              <li><Link to="/Interview"><button className="button">Interviews</button></Link></li>
-              <li><Link to="/Paper"><button className="button">Writings</button></Link></li>
-              <li><Link to="/Team"><button className="button">Team</button></Link></li>
+              <li><Link to="/">
+                <a>Home</a>
+              </Link></li>
+              <li><Link to="/Composition">
+                <a>Music</a>
+              </Link></li>
+              <li><Link to="/Interview">
+                <a>Interviews</a>
+                </Link></li>
+              <li><Link to="/Paper">
+                <a>Writings</a>
+              </Link></li>
+              <li><Link to="/Team">
+                <a>Team</a>
+                </Link></li>
             </ul>
             </div>
+
           </div>
 
             {/*Routing Paths*/}
