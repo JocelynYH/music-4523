@@ -46,7 +46,6 @@
   color: #a02035;
 }
 
-
 .App-logo {
   align-items: left;
   height: 120px;
@@ -71,11 +70,22 @@
 
 .black {
     background-color: #222;
+
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -moz-flex;
+ display: -webkit-flex;
+ display: flex;
+ justify-content: space-around;
 }
 
 .white {
     background-color: white;
     color: #222;
+
 }
 
 .black, .white {
@@ -85,4 +95,76 @@
 img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.show-image {
+    position: relative;
+    background: #a02035;
+    padding: 5px;
+    width: 280px;
+    height: 550px;
+    margin-top: 10px;
+
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.show-image h1 {
+    position:relative;
+    font-size: 30px;
+    line-height: 1.8;
+    text-decoration: underline;
+}
+
+.show-image h2 {
+    position:relative;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.show-image p {
+    position:absolute;
+    display:none;
+    font-size: 10px;
+    line-height: 1.8;
+    padding: 5px;
+}
+
+.show-image h3 {
+    position:relative;
+    display:none;
+    font-size: 5px;
+    line-height: 0.8;
+    padding: 5px;
+}
+
+.show-image img{
+  width: 280px;
+  height: 310px;
+}
+
+.show-image:hover img{
+    opacity:0.5;
+    max-height: 100%;
+    max-width: 100%;
+}
+.show-image:hover p {
+    display: block;
+}
+.show-image p.overlay {
+    top:0;
+    left:0;
+    color: white;
+    font-size: 20px;
+}
+
+.show-image p.overlay2 {
+    top:0;
+    left:0;
+    color: white;
+    font-size: 15px;
 }
