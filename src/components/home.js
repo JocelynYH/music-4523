@@ -8,9 +8,13 @@ import '../App.css';
 class Home extends Component {
     render() {
         return(
-            <div className="Main">
-                <h1>Home Page</h1>
-            </div>
+          <div className="Main">
+              <section className='title white'>
+                  <div className='contentTitle'>
+                    <img src={require('../images/maintitle.png')} />
+                  </div>
+              </section>
+          </div>
         )
     }
 }

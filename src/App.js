@@ -21,9 +21,7 @@ class App extends Component {
           {/*Logo Button*/}
             <ul>
               <li><Link to="/">
-              <button className="App-logo-button">
-                <img src={require('./logo.svg')}/>
-              </button>
+                <img src={require('./images/rocket.gif')} className="App-logo"/>
               </Link></li>
             </ul>
 
@@ -33,13 +31,13 @@ class App extends Component {
               <li><Link to="/">
                 <a>Home</a>
               </Link></li>
-              <li><Link to="/Composition">
+              <li><Link to="/Music">
                 <a>Music</a>
               </Link></li>
-              <li><Link to="/Interview">
+              <li><Link to="/Interviews">
                 <a>Interviews</a>
                 </Link></li>
-              <li><Link to="/Paper">
+              <li><Link to="/Writings">
                 <a>Writings</a>
               </Link></li>
               <li><Link to="/Team">
@@ -52,9 +50,9 @@ class App extends Component {
 
             {/*Routing Paths*/}
             <Route exact path="/" component={Home} />
-            <Route exact path="/Composition" component={Composition} />
-            <Route exact path="/Interview" component={Interview} />
-            <Route exact path="/Paper" component={Paper} />
+            <Route exact path="/Music" component={Composition} />
+            <Route exact path="/Interviews" component={Interview} />
+            <Route exact path="/Writings" component={Paper} />
             <Route exact path="/Team" component={Team} />
 
         </div>
