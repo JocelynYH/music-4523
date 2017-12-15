@@ -21,29 +21,38 @@ class App extends Component {
           {/*Logo Button*/}
             <ul>
               <li><Link to="/">
-              <button className="App-logo-button">
-                <img src={require('./logo.svg')}/>
-              </button>
+                <img src={require('./images/rocket.gif')} className="App-logo"/>
               </Link></li>
             </ul>
-            
+
             {/*Nav Bar*/}
             <div className= "nav">
             <ul>
-              <li><Link to="/"><button className="button">Home</button></Link></li>
-              <li><Link to="/Composition"><button className="button">Music</button></Link></li>
-              <li><Link to="/Interview"><button className="button">Interviews</button></Link></li>
-              <li><Link to="/Paper"><button className="button">Writings</button></Link></li>
-              <li><Link to="/Team"><button className="button">Team</button></Link></li>
+              <li><Link to="/">
+                <a>Home</a>
+              </Link></li>
+              <li><Link to="/Music">
+                <a>Music</a>
+              </Link></li>
+              <li><Link to="/Interviews">
+                <a>Interviews</a>
+                </Link></li>
+              <li><Link to="/Writings">
+                <a>Writings</a>
+              </Link></li>
+              <li><Link to="/Team">
+                <a>Team</a>
+                </Link></li>
             </ul>
             </div>
+
           </div>
 
             {/*Routing Paths*/}
             <Route exact path="/" component={Home} />
-            <Route exact path="/Composition" component={Composition} />
-            <Route exact path="/Interview" component={Interview} />
-            <Route exact path="/Paper" component={Paper} />
+            <Route exact path="/Music" component={Composition} />
+            <Route exact path="/Interviews" component={Interview} />
+            <Route exact path="/Writings" component={Paper} />
             <Route exact path="/Team" component={Team} />
 
         </div>

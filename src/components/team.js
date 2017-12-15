@@ -6,7 +6,9 @@ class Team extends Component {
         return(
             <div className="Main">
                 <section className='title white'>
-                    <h1>Title</h1>
+                  <div className='contentTitle'>
+                    <img src={require('../images/bios.png')} />
+                  </div>
                     <p>description</p>
                 </section>
 
