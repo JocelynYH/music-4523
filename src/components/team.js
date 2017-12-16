@@ -40,7 +40,7 @@ class Team extends Component {
                     {/*Maya*/}
                     <div className="show-image">
                       <img src={require('../images/bios/maya.jpg')} />
-                      <p className="overlay"> Quote </p>
+                      <p className="overlay"></p>
                       <h1>Maya Silverman</h1>
                       <h2>Poet, Curator</h2>
                     </div>
@@ -89,10 +89,10 @@ Kodwo Eshun</p>
                       <h2>Writer, Music Curator</h2>
                     </div>
 
-                    {/*Michael*/}
+                    {/*Mike*/}
                     <div className="show-image">
                       <img src={require('../images/bios.png')} />
-                      <p className="overlay">Quote</p>
+                      <p className="overlay"></p>
                       <h1>Mike Estep</h1>
                       <h2>Videographer, Film Editor</h2>
                     </div>
