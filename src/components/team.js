@@ -39,10 +39,10 @@ class Team extends Component {
 
                     {/*Maya*/}
                     <div className="show-image">
-                      <img src={require('../images/bios.png')} />
+                      <img src={require('../images/bios/maya.jpg')} />
                       <p className="overlay"> Quote </p>
                       <h1>Maya Silverman</h1>
-                      <h2>Writer, Curator</h2>
+                      <h2>Poet, Curator</h2>
                     </div>
 
                     {/*Ruby Nwaebube */}
@@ -75,7 +75,7 @@ Kodwo Eshun</p>
 
                     {/*KJ*/}
                     <div className="show-image">
-                      <img src={require('../images/bios/kj.png')} />
+                      <img src={require('../images/bios/kj.jpg')} />
                       <p className="overlay decrease">"Most composers write a drum part with a regular beat that anybody in the whole world could play.  I always like to extract the beat that's there and then try lots of different beats and different ways of drumming around it. That's the only way not to get bored."- Tony Allen </p>
                       <h1>KJ Grubiak</h1>
                       <h2>Researcher, Composer</h2>
@@ -93,8 +93,8 @@ Kodwo Eshun</p>
                     <div className="show-image">
                       <img src={require('../images/bios.png')} />
                       <p className="overlay">Quote</p>
-                      <h1>Michael</h1>
-                      <h2>...</h2>
+                      <h1>Mike Estep</h1>
+                      <h2>Videographer, Film Editor</h2>
                     </div>
 
                     {/*Jake*/}
