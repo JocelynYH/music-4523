@@ -16,7 +16,7 @@ class Team extends Component {
                     {/*Lindsey */}
                     <div className="show-image">
                       <img src={require('../images/bios/linds.jpg')} />
-                      <p className="overlay">“The trouble with the people on this planet is they refuse to think they refuse to believe anything except what they know” - Sun Ra</p>
+                      <p className="overlay">“Hip-hop is the people. What the people are moving toward is what hip-hop is. I think people are moving toward a freer way of thinking. Openness.” - Erykah Badu</p>
                       <h1>Lindsey Shavers</h1>
                       <h2>Software Developer/Web Designer, Curator</h2>
                     </div>
@@ -31,8 +31,8 @@ class Team extends Component {
 
                     {/*Jocelyn*/}
                     <div className="show-image">
-                      <img src={require('../images/bios.png')} />
-                      <p className="overlay"> Quote </p>
+                      <img src={require('../images/bios/jocelyn.png')} />
+                      <p className="overlay">"When the higher forces give you the gift of music... it must be well used for the gift of humanity." - Fela Kuti</p>
                       <h1>Jocelyn Huang</h1>
                       <h2>Web Designer, Curator</h2>
                     </div>
@@ -85,8 +85,8 @@ Kodwo Eshun</p>
                     <div className="show-image">
                       <img src={require('../images/bios.png')} />
                       <p className="overlay">“The trouble with the people on this planet is they refuse to think they refuse to believe anything except what they know” - Sun Ra</p>
-                      <h1>Erik</h1>
-                      <h2>Writer</h2>
+                      <h1>Erik Bergstrom</h1>
+                      <h2>Writer, Music Curator</h2>
                     </div>
 
                     {/*Michael*/}
