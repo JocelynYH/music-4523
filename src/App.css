@@ -170,9 +170,11 @@ img {
         width: 100%;
     }
     
-    iframe {
+    iframe, img {
         width: 100%;
     }
+    
+    
 }
 
 .show-image {
@@ -222,7 +224,7 @@ img {
 
 .show-image img{
   width: 280px;
-  height: 310px;
+  height: 280px;
 }
 
 .show-image:hover img{
@@ -238,13 +240,15 @@ img {
     left:0;
     color: white;
     font-size: 20px;
+    padding: 20px;
 }
 
-.show-image p.overlay2 {
-    top:0;
-    left:0;
-    color: white;
+.show-image p.overlay.decrease {
     font-size: 15px;
+}
+
+.show-image p.overlay.decrease.xs {
+    font-size: 12px;
 }
 
 .bio {

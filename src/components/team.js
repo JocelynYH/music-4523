@@ -16,7 +16,7 @@ class Team extends Component {
                     {/*Lindsey */}
                     <div className="show-image">
                       <img src={require('../images/bios/linds.jpg')} />
-                      <p className="overlay">“Hip-hop is the people. What the people are moving toward is what hip-hop is. I think people are moving toward a freer way of thinking. Openness.” - Erykah Badu</p>
+                      <p className="overlay decrease">“Hip-hop is the people. What the people are moving toward is what hip-hop is. I think people are moving toward a freer way of thinking. Openness.” - Erykah Badu</p>
                       <h1>Lindsey Shavers</h1>
                       <h2>Software Developer/Web Designer, Curator</h2>
                     </div>
@@ -31,10 +31,10 @@ class Team extends Component {
 
                     {/*Jocelyn*/}
                     <div className="show-image">
-                      <img src={require('../images/bios/jocelyn.png')} />
+                      <img src={require('../images/bios/jocelyn.jpg')} />
                       <p className="overlay">"When the higher forces give you the gift of music... it must be well used for the gift of humanity." - Fela Kuti</p>
                       <h1>Jocelyn Huang</h1>
-                      <h2>Web Designer, Curator</h2>
+                      <h2>Web Designer, UX Designer, Curator</h2>
                     </div>
 
                     {/*Maya*/}
@@ -55,8 +55,8 @@ class Team extends Component {
 
                     {/*Julian Brass*/}
                     <div className="show-image">
-                      <img src={require('../images/bios.png')} />
-                      <p className="overlay2">"The discovery of the DNA code, for example, is focusing on how you can create
+                      <img src={require('../images/bios/julian.png')} />
+                      <p className="overlay two decrease xs">"The discovery of the DNA code, for example, is focusing on how you can create
 different species of beings by starting from the very smallest particles and their components.
 That is why we are all part of the spirit of the atomic age. In music, we do exactly the same”
 (Karlheinz Stockhausen)- from More Brilliant than the sun: adventures in sonic fiction by
@@ -99,7 +99,7 @@ Kodwo Eshun</p>
 
                     {/*Jake*/}
                     <div className="show-image">
-                      <img src={require('../images/bios.png')} />
+                      <img src={require('../images/bios/jake.jpg')} />
                       <p className="overlay"> Quote </p>
                       <h1>Jake</h1>
                       <h2>...</h2>
@@ -108,7 +108,7 @@ Kodwo Eshun</p>
                     {/*Clarence*/}
                     <div className="show-image">
                       <img src={require('../images/bios/clarence.jpg')} />
-                      <p className="overlay2"> “If man is to survive, he will have learned to take a delight in the essential differences between men and between cultures. He will learn that differences in ideas and attitudes are a delight, part of life's exciting variety, not something to fear.” - Gene Roddenberry </p>
+                      <p className="overlay decrease"> “If man is to survive, he will have learned to take a delight in the essential differences between men and between cultures. He will learn that differences in ideas and attitudes are a delight, part of life's exciting variety, not something to fear.” - Gene Roddenberry </p>
                       <h1>Clarence</h1>
                       <h2>Performer, Creative Influencer</h2>
                     </div>
