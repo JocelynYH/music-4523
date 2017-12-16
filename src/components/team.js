@@ -12,7 +12,7 @@ class Team extends Component {
                 </section>
 
                 {/*Bios Sections */}
-                <div className='content paper black'>
+                <div className='content paper black bio'>
                     {/*Lindsey */}
                     <div className="show-image">
                       <img src={require('../images/bios/linds.jpg')} />
