@@ -16,9 +16,9 @@ class Team extends Component {
                     {/*Lindsey */}
                     <div className="show-image">
                       <img src={require('../images/bios/linds.jpg')} />
-                      <p className="overlay decrease">“Hip-hop is the people. What the people are moving toward is what hip-hop is. I think people are moving toward a freer way of thinking. Openness.” - Erykah Badu</p>
+                      <p className="overlay decrease">“Music is a weapon of the future / music is the weapon of the progressives / music is the weapon of the givers of life” - Fela Kuti</p>
                       <h1>Lindsey Shavers</h1>
-                      <h2>Software Developer/Web Designer, Curator</h2>
+                      <h2>Software Developer, Web Designer, Curator</h2>
                     </div>
 
                     {/*Corrine*/}
@@ -41,7 +41,7 @@ class Team extends Component {
                     <div className="show-image">
                       <img src={require('../images/bios.png')} />
                       <p className="overlay"> Quote </p>
-                      <h1>Maya</h1>
+                      <h1>Maya Silverman</h1>
                       <h2>Writer, Curator</h2>
                     </div>
 
@@ -69,21 +69,21 @@ Kodwo Eshun</p>
                     <div className="show-image">
                       <img src={require('../images/bios/luc.jpg')} />
                       <p className="overlay">“If you’re not mad at the world, you don’t have what it takes” - Sun Ra </p>
-                      <h1>Luc</h1>
+                      <h1>Luc Cianfarani </h1>
                       <h2>Researcher, Pianist, Composer</h2>
                     </div>
 
                     {/*KJ*/}
                     <div className="show-image">
-                      <img src={require('../images/bios.png')} />
-                      <p className="overlay"> Quote </p>
-                      <h1>KJ</h1>
-                      <h2>...</h2>
+                      <img src={require('../images/bios/kj.png')} />
+                      <p className="overlay decrease">"Most composers write a drum part with a regular beat that anybody in the whole world could play.  I always like to extract the beat that's there and then try lots of different beats and different ways of drumming around it. That's the only way not to get bored."- Tony Allen </p>
+                      <h1>KJ Grubiak</h1>
+                      <h2>Researcher, Composer</h2>
                     </div>
 
                     {/*Erik */}
                     <div className="show-image">
-                      <img src={require('../images/bios.png')} />
+                      <img src={require('../images/bios/erik.jpg')} />
                       <p className="overlay">“The trouble with the people on this planet is they refuse to think they refuse to believe anything except what they know” - Sun Ra</p>
                       <h1>Erik Bergstrom</h1>
                       <h2>Writer, Music Curator</h2>
@@ -100,16 +100,16 @@ Kodwo Eshun</p>
                     {/*Jake*/}
                     <div className="show-image">
                       <img src={require('../images/bios/jake.jpg')} />
-                      <p className="overlay"> Quote </p>
-                      <h1>Jake</h1>
-                      <h2>...</h2>
+                      <p className="overlay">"99.9% of the information you get about Africa is wrong." - Fela Kuti </p>
+                      <h1>Jake Vanaman</h1>
+                      <h2>Recording Engineer, Producer</h2>
                     </div>
 
                     {/*Clarence*/}
                     <div className="show-image">
                       <img src={require('../images/bios/clarence.jpg')} />
                       <p className="overlay decrease"> “If man is to survive, he will have learned to take a delight in the essential differences between men and between cultures. He will learn that differences in ideas and attitudes are a delight, part of life's exciting variety, not something to fear.” - Gene Roddenberry </p>
-                      <h1>Clarence</h1>
+                      <h3>Clarence Washington</h3>
                       <h2>Performer, Creative Influencer</h2>
                     </div>
 

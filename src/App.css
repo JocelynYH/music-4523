@@ -140,6 +140,7 @@ img {
 /************Content Page Template***************/
 .black {
     background-color: #222;
+
 }
 
 .white {
@@ -169,12 +170,12 @@ img {
     h1, h2, h3, h4{
         width: 100%;
     }
-    
+
     iframe, img {
         width: 100%;
     }
-    
-    
+
+
 }
 
 .show-image {
@@ -200,6 +201,13 @@ img {
     text-decoration: underline;
 }
 
+.show-image h3 {
+    position:relative;
+    font-size: 25px;
+    line-height: 1.8;
+    text-decoration: underline;
+}
+
 .show-image h2 {
     position:relative;
     font-size: 20px;
@@ -211,14 +219,6 @@ img {
     display:none;
     font-size: 10px;
     line-height: 1.8;
-    padding: 5px;
-}
-
-.show-image h3 {
-    position:relative;
-    display:none;
-    font-size: 5px;
-    line-height: 0.8;
     padding: 5px;
 }
 
