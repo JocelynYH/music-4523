@@ -266,3 +266,7 @@ img {
 .bio h1, .bio h2 {
     font-family: 'Open Sans', sans-serif;
 }
+
+.home {
+  height: 800px;
+}

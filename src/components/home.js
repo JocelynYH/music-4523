@@ -8,10 +8,10 @@ import '../App.css';
 class Home extends Component {
     render() {
         return(
-          <div className="Main">
+          <div className="Main home">
               <section className='title white'>
                   <div className='contentTitle'>
-                    <img src={require('../images/maintitle.png')} />
+                    <img src={require('../images/maintitle.png')}/>
                   </div>
               </section>
           </div>
