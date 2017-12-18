@@ -40,7 +40,7 @@ class Team extends Component {
                     {/*Maya*/}
                     <div className="show-image">
                       <img src={require('../images/bios/maya.jpg')} />
-                      <p className="overlay"></p>
+                      <p className="overlay">"I think a lot of people have lost respect for the individual, you know, the individual, the person who doesn't conform." - Erykah Badu </p>
                       <h1>Maya Silverman</h1>
                       <h2>Poet, Curator</h2>
                     </div>

@@ -5,6 +5,7 @@ import Composition from './components/composition.js';
 import Interview from './components/interview.js';
 import Paper from './components/paper.js';
 import Home from './components/home.js';
+import Poem from './components/poem.js';
 import Team from './components/team.js';
 
 class App extends Component {
@@ -40,6 +41,9 @@ class App extends Component {
               <li><Link to="/Writings">
                 <a>Writings</a>
               </Link></li>
+              <li><Link to="/Poem">
+                <a>Poem</a>
+              </Link></li>
               <li><Link to="/Team">
                 <a>Team</a>
                 </Link></li>
@@ -53,6 +57,7 @@ class App extends Component {
             <Route exact path="/Music" component={Composition} />
             <Route exact path="/Interviews" component={Interview} />
             <Route exact path="/Writings" component={Paper} />
+            <Route exact path="/Poem" component={Poem} />
             <Route exact path="/Team" component={Team} />
 
         </div>
